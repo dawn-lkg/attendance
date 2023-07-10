@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/attendance-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/common/BaseContext.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/constants/SystemConstants.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/dao/AdminDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/dao/CollegeDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/dao/CourseDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/dao/CourseStudentDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/dao/DepartmentDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/dao/StudentDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/dao/TeacherDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/dao/UsersDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/Admin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/AppHttpCodeEnum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/College.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/Course.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/CourseStudent.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/Department.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/Result.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/Student.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/StudentStatus.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/Teacher.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/Users.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/dto/CourseDto.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/vo/CollegeSelectVo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/vo/CollegeVo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/vo/CourseListVo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/vo/CourseStuVo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/entity/vo/TeacherSelectVo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/AdminService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/CollegeService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/CourseService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/CourseStudentService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/DepartmentService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/StudentService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/TeacherService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/UploadService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/UsersService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/faceCheckService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/AdminServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/CollegeServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/CourseServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/CourseStudentServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/DepartmentServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/FaceCheckServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/StudentServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/TeacherServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/UploadServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/service/impl/UsersServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/utils/JwtTokenUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/java/com/example/attendance_framework/utils/RedisCache.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-framework/src/main/resources/mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-wx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-wx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/attendance-wx/src/test/java/com/example/attendance_wx/AppTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

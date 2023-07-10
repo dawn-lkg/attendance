@@ -1,0 +1,33 @@
+server:
+  port: 8082
+spring:
+  servlet:
+    multipart:
+      maxFileSize: 50MB
+      maxRequestSize: 50MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/attendance?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+  redis:
+    port: 6379
+    host: localhost
+    password:
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    call-setters-on-nulls: true
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: isDeleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  mapper-locations: classpath*:mapper/**/*.xml
+face:
+  api_key: vAONGkQC9zKQaknyvGpT233t1GfIDrgu
+  api_secret: OBw9Zpby6zzJwIGQoaFx7CfyX_MH2BHV
+upload:
+  path: E:/path/to/
+

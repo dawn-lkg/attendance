@@ -1,0 +1,31 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/attendance?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+  redis:
+    port: 6379
+    host: localhost
+    password:
+
+#  mvc:
+#    static-path-pattern: /images/**
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+#  web:
+#    resources:
+#      static-locations: G:/path/to/
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    call-setters-on-nulls: true
+  #mapper-locations: classpath*:mapper/**/*.xml
+face:
+  api_key: vAONGkQC9zKQaknyvGpT233t1GfIDrgu
+  api_secret: OBw9Zpby6zzJwIGQoaFx7CfyX_MH2BHV
+upload:
+  path: E:/path/to/
+
